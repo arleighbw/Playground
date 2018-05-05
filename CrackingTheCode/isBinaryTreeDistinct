@@ -9,6 +9,7 @@ The Node class is defined as follows:
 */
     boolean checkBST(Node root) {
         //inOrderPrint(root, 1);
+        if (root==null) return true;
         
         return isBSTMinMax(root, Integer.MIN_VALUE, Integer.MAX_VALUE);
     }
