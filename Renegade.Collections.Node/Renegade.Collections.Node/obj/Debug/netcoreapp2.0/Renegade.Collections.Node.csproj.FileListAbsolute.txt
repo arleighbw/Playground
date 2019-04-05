@@ -1,0 +1,9 @@
+C:\Users\Blayne\source\repos\Renegade.Collections.Node\Renegade.Collections.Node\bin\Debug\netcoreapp2.0\Renegade.Collections.deps.json
+C:\Users\Blayne\source\repos\Renegade.Collections.Node\Renegade.Collections.Node\bin\Debug\netcoreapp2.0\Renegade.Collections.dll
+C:\Users\Blayne\source\repos\Renegade.Collections.Node\Renegade.Collections.Node\bin\Debug\netcoreapp2.0\Renegade.Collections.pdb
+C:\Users\Blayne\source\repos\Renegade.Collections.Node\Renegade.Collections.Node\obj\Debug\netcoreapp2.0\Renegade.Collections.Node.csprojAssemblyReference.cache
+C:\Users\Blayne\source\repos\Renegade.Collections.Node\Renegade.Collections.Node\obj\Debug\netcoreapp2.0\Renegade.Collections.Node.csproj.CoreCompileInputs.cache
+C:\Users\Blayne\source\repos\Renegade.Collections.Node\Renegade.Collections.Node\obj\Debug\netcoreapp2.0\Renegade.Collections.Node.AssemblyInfoInputs.cache
+C:\Users\Blayne\source\repos\Renegade.Collections.Node\Renegade.Collections.Node\obj\Debug\netcoreapp2.0\Renegade.Collections.Node.AssemblyInfo.cs
+C:\Users\Blayne\source\repos\Renegade.Collections.Node\Renegade.Collections.Node\obj\Debug\netcoreapp2.0\Renegade.Collections.dll
+C:\Users\Blayne\source\repos\Renegade.Collections.Node\Renegade.Collections.Node\obj\Debug\netcoreapp2.0\Renegade.Collections.pdb

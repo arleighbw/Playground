@@ -1,0 +1,14 @@
+C:\Users\Blayne\source\repos\Renegade.Collections.Node\Renegade.Collections.Process\bin\Debug\netcoreapp2.1\Renegade.Collections.Process.deps.json
+C:\Users\Blayne\source\repos\Renegade.Collections.Node\Renegade.Collections.Process\bin\Debug\netcoreapp2.1\Renegade.Collections.Process.runtimeconfig.json
+C:\Users\Blayne\source\repos\Renegade.Collections.Node\Renegade.Collections.Process\bin\Debug\netcoreapp2.1\Renegade.Collections.Process.runtimeconfig.dev.json
+C:\Users\Blayne\source\repos\Renegade.Collections.Node\Renegade.Collections.Process\bin\Debug\netcoreapp2.1\Renegade.Collections.Process.dll
+C:\Users\Blayne\source\repos\Renegade.Collections.Node\Renegade.Collections.Process\bin\Debug\netcoreapp2.1\Renegade.Collections.Process.pdb
+C:\Users\Blayne\source\repos\Renegade.Collections.Node\Renegade.Collections.Process\bin\Debug\netcoreapp2.1\Renegade.Collections.dll
+C:\Users\Blayne\source\repos\Renegade.Collections.Node\Renegade.Collections.Process\bin\Debug\netcoreapp2.1\Renegade.Collections.pdb
+C:\Users\Blayne\source\repos\Renegade.Collections.Node\Renegade.Collections.Process\obj\Debug\netcoreapp2.1\Renegade.Collections.Process.csproj.CoreCompileInputs.cache
+C:\Users\Blayne\source\repos\Renegade.Collections.Node\Renegade.Collections.Process\obj\Debug\netcoreapp2.1\Renegade.Collections.Process.AssemblyInfoInputs.cache
+C:\Users\Blayne\source\repos\Renegade.Collections.Node\Renegade.Collections.Process\obj\Debug\netcoreapp2.1\Renegade.Collections.Process.AssemblyInfo.cs
+C:\Users\Blayne\source\repos\Renegade.Collections.Node\Renegade.Collections.Process\obj\Debug\netcoreapp2.1\Renegade.Collections.Process.csproj.CopyComplete
+C:\Users\Blayne\source\repos\Renegade.Collections.Node\Renegade.Collections.Process\obj\Debug\netcoreapp2.1\Renegade.Collections.Process.dll
+C:\Users\Blayne\source\repos\Renegade.Collections.Node\Renegade.Collections.Process\obj\Debug\netcoreapp2.1\Renegade.Collections.Process.pdb
+C:\Users\Blayne\source\repos\Renegade.Collections.Node\Renegade.Collections.Process\obj\Debug\netcoreapp2.1\Renegade.Collections.Process.csprojAssemblyReference.cache
