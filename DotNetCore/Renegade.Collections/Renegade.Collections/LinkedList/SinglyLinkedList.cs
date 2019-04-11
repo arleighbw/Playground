@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Renegade.Collections
 {
-    class LinkedList<T> : ICollection<T>
+    public class SinglyLinkedList<T> : ICollection<T>
     {
         public SinglyLinkedNode<T> Root { get; set; }
         public SinglyLinkedNode<T> Tail { get; set; }
@@ -13,12 +13,12 @@ namespace Renegade.Collections
 
         public bool IsReadOnly { get; }
 
-        public LinkedList()
+        public SinglyLinkedList()
         {
             //Clear();
         }
 
-        public LinkedList(T item)
+        public SinglyLinkedList(T item)
         {
             this.Root = this.Tail = new SinglyLinkedNode<T>(item);
             this.IsReadOnly = true;
@@ -32,12 +32,12 @@ namespace Renegade.Collections
 
                 if (Count == 0)
                 {
-                    Root = Node;
-                    Tail = Root;
+                    Tail = Root = Node;
                     Count = 1;
                 }
-                if (Count >= 1)
+                else if (Count >= 1)
                 {
+                    if (Root == Tail) Root.Next = Tail;
                     Tail.Next = Node;
                     Tail = Node;
                     Count++;
@@ -60,7 +60,7 @@ namespace Renegade.Collections
                 SinglyLinkedNode<T> Current = Root;
                 while (Current != null)
                 {
-                    if (Root.Equals(item)) return true;
+                    if (Current.Data.Equals(item)) return true;
                     Current = Current.Next;
                 }
 
@@ -77,7 +77,7 @@ namespace Renegade.Collections
         {
             switch (Count) 
             {
-                case var expression when Count >= 1:
+                case var expression when Count <= 1:
                     Clear();
                     break;
                 case var expression when Count == 2:
@@ -167,5 +167,6 @@ namespace Renegade.Collections
         {
             return GetEnumerator();
         }
+
     }
 }

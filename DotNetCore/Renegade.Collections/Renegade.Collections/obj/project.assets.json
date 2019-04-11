@@ -682,11 +682,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Blayne\\source\\repos\\Renegade.Collections\\Renegade.Collections\\Renegade.Collections.csproj",
+      "projectUniqueName": "A:\\Development\\Playground\\DotNetCore\\Renegade.Collections\\Renegade.Collections\\Renegade.Collections.csproj",
       "projectName": "Renegade.Collections",
-      "projectPath": "C:\\Users\\Blayne\\source\\repos\\Renegade.Collections\\Renegade.Collections\\Renegade.Collections.csproj",
+      "projectPath": "A:\\Development\\Playground\\DotNetCore\\Renegade.Collections\\Renegade.Collections\\Renegade.Collections.csproj",
       "packagesPath": "C:\\Users\\Blayne\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Blayne\\source\\repos\\Renegade.Collections\\Renegade.Collections\\obj\\",
+      "outputPath": "A:\\Development\\Playground\\DotNetCore\\Renegade.Collections\\Renegade.Collections\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

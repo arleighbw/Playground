@@ -60,45 +60,4 @@ namespace Renegade.Collections
         }
     }
 
-    /// <summary>
-    /// Node to be used in SinglyLinkedList
-    /// </summary>
-    /// <typeparam name="T"></typeparam>
-    public class SinglyLinkedNode<T> : Node<T>
-    {
-        public SinglyLinkedNode(T data) : base(data)
-        {
-        }
-
-        public SinglyLinkedNode<T> Next { get; set; }
-    }
-
-    /// <summary>
-    /// Node to be used in DoublyLinkedNode
-    /// </summary>
-    /// <typeparam name="T"></typeparam>
-    public class DoublyLinkedNode<T> : Node<T>
-    {
-        public DoublyLinkedNode(T data) : base(data)
-        {
-        }
-
-        public DoublyLinkedNode<T> Next { get; set; }
-        public DoublyLinkedNode<T> Prev { get; set; }
-    }
-
-    /// <summary>
-    /// Node to be used in Binary Tree
-    /// </summary>
-    /// <typeparam name="T"></typeparam>
-    public class BTNode<T> : Node<T>
-    {
-        public BTNode(T data) : base(data)
-        {
-        }
-
-        public BTNode<T> Left { get; set; }
-        public BTNode<T> Right { get; set; }
-    }
-
 }

@@ -5876,11 +5876,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Blayne\\source\\repos\\Renegade.Collections\\Renegade.Collections.Tests\\Renegade.Collections.Tests.csproj",
+      "projectUniqueName": "A:\\Development\\Playground\\DotNetCore\\Renegade.Collections\\Renegade.Collections.Tests\\Renegade.Collections.Tests.csproj",
       "projectName": "Renegade.Collections.Tests",
-      "projectPath": "C:\\Users\\Blayne\\source\\repos\\Renegade.Collections\\Renegade.Collections.Tests\\Renegade.Collections.Tests.csproj",
+      "projectPath": "A:\\Development\\Playground\\DotNetCore\\Renegade.Collections\\Renegade.Collections.Tests\\Renegade.Collections.Tests.csproj",
       "packagesPath": "C:\\Users\\Blayne\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Blayne\\source\\repos\\Renegade.Collections\\Renegade.Collections.Tests\\obj\\",
+      "outputPath": "A:\\Development\\Playground\\DotNetCore\\Renegade.Collections\\Renegade.Collections.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5899,8 +5899,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Users\\Blayne\\source\\repos\\Renegade.Collections\\Renegade.Collections\\Renegade.Collections.csproj": {
-              "projectPath": "C:\\Users\\Blayne\\source\\repos\\Renegade.Collections\\Renegade.Collections\\Renegade.Collections.csproj"
+            "A:\\Development\\Playground\\DotNetCore\\Renegade.Collections\\Renegade.Collections\\Renegade.Collections.csproj": {
+              "projectPath": "A:\\Development\\Playground\\DotNetCore\\Renegade.Collections\\Renegade.Collections\\Renegade.Collections.csproj"
             }
           }
         }

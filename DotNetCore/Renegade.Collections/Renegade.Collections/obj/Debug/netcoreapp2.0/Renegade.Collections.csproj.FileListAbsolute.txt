@@ -15,3 +15,12 @@ C:\Users\Blayne\source\repos\Renegade.Collections\Renegade.Collections\obj\Debug
 C:\Users\Blayne\source\repos\Renegade.Collections\Renegade.Collections\obj\Debug\netcoreapp2.0\Renegade.Collections.AssemblyInfo.cs
 C:\Users\Blayne\source\repos\Renegade.Collections\Renegade.Collections\obj\Debug\netcoreapp2.0\Renegade.Collections.dll
 C:\Users\Blayne\source\repos\Renegade.Collections\Renegade.Collections\obj\Debug\netcoreapp2.0\Renegade.Collections.pdb
+A:\Development\Playground\DotNetCore\Renegade.Collections\Renegade.Collections\bin\Debug\netcoreapp2.0\Renegade.Collections.deps.json
+A:\Development\Playground\DotNetCore\Renegade.Collections\Renegade.Collections\bin\Debug\netcoreapp2.0\Renegade.Collections.dll
+A:\Development\Playground\DotNetCore\Renegade.Collections\Renegade.Collections\bin\Debug\netcoreapp2.0\Renegade.Collections.pdb
+A:\Development\Playground\DotNetCore\Renegade.Collections\Renegade.Collections\obj\Debug\netcoreapp2.0\Renegade.Collections.csproj.CoreCompileInputs.cache
+A:\Development\Playground\DotNetCore\Renegade.Collections\Renegade.Collections\obj\Debug\netcoreapp2.0\Renegade.Collections.AssemblyInfoInputs.cache
+A:\Development\Playground\DotNetCore\Renegade.Collections\Renegade.Collections\obj\Debug\netcoreapp2.0\Renegade.Collections.AssemblyInfo.cs
+A:\Development\Playground\DotNetCore\Renegade.Collections\Renegade.Collections\obj\Debug\netcoreapp2.0\Renegade.Collections.dll
+A:\Development\Playground\DotNetCore\Renegade.Collections\Renegade.Collections\obj\Debug\netcoreapp2.0\Renegade.Collections.pdb
+A:\Development\Playground\DotNetCore\Renegade.Collections\Renegade.Collections\obj\Debug\netcoreapp2.0\Renegade.Collections.csprojAssemblyReference.cache
