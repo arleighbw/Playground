@@ -23,4 +23,3 @@ A:\Development\Playground\DotNetCore\Renegade.Collections\Renegade.Collections\o
 A:\Development\Playground\DotNetCore\Renegade.Collections\Renegade.Collections\obj\Debug\netcoreapp2.0\Renegade.Collections.AssemblyInfo.cs
 A:\Development\Playground\DotNetCore\Renegade.Collections\Renegade.Collections\obj\Debug\netcoreapp2.0\Renegade.Collections.dll
 A:\Development\Playground\DotNetCore\Renegade.Collections\Renegade.Collections\obj\Debug\netcoreapp2.0\Renegade.Collections.pdb
-A:\Development\Playground\DotNetCore\Renegade.Collections\Renegade.Collections\obj\Debug\netcoreapp2.0\Renegade.Collections.csprojAssemblyReference.cache
