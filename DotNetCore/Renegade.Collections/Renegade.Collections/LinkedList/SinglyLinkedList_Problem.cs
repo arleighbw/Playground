@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Renegade.Collections
 {
-    public class ProblemSinglyLinkedList<T> : SinglyLinkedList<T>
+    public class SinglyLinkedList_Problem<T> : SinglyLinkedList<T>
     {
         /// <summary>
         /// Given a non-empty, singly linked list with head node head, return a middle node of linked list.
@@ -28,16 +28,47 @@ namespace Renegade.Collections
         /// <returns></returns>
         public T GetMiddleNode()
         {
-            var head = this.Root;
+            if (this.Root == null) return default(T);
+
+            var curr = this.Root;
             var runner = this.Root;
 
-            while (head != null && runner?.Next != null)
+            while (curr != null && runner?.Next != null)
             {
-                head = head.Next;
+                curr = curr.Next;
                 runner = runner.Next.Next;
             }
 
-            return head.Data;
+            return curr.Data;
+        }
+
+        /// <summary>
+        /// Using a stack requires 2 passes.
+        ///     Time Complexity O(2N)
+        ///     Space Complexity O(N)
+        /// </summary>
+        /// <returns></returns>
+        public bool IsPalindromeUsingStack()
+        {
+            if (Root == null) return false;
+
+            var stack = new Stack<T>();
+
+            var curr = this.Root;
+            while (curr != null)
+            {
+                stack.Push(curr.Data);
+                curr = curr.Next;
+            }
+
+            curr = this.Root;
+            while (curr != null)
+            {
+                if (!curr.Data.Equals(stack.Pop())) return false;
+                curr = curr.Next;
+            }
+
+            return true;
         }
     }
 }
