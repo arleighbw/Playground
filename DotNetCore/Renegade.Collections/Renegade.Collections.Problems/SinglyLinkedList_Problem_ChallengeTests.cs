@@ -77,5 +77,46 @@ namespace Renegade.Collections.Problems
 
             Assert.False(actual);
         }
+
+        [Fact]
+        public void CircularList_IsCircular_True()
+        {
+            var linkedList = new SinglyLinkedList_Problem<int>();
+            linkedList.Add('1');
+            linkedList.Add('3');
+            linkedList.Add('5');
+            linkedList.Add('7');
+            linkedList.Add('9');
+            linkedList.Tail.Next = linkedList.Root.Next;
+
+            var actual = linkedList.IsCircular();
+
+            Assert.True(actual);
+        }
+
+        [Fact]
+        public void NonCircularList_IsCircular_False()
+        {
+            var linkedList = new SinglyLinkedList_Problem<int>();
+            linkedList.Add(1);
+            linkedList.Add(3);
+            linkedList.Add(5);
+            linkedList.Add(7);
+            linkedList.Add(9);
+
+            var actual = linkedList.IsCircular();
+
+            Assert.False(actual);
+        }
+
+        [Fact]
+        public void EmptyList_IsCircular_False()
+        {
+            var linkedList = new SinglyLinkedList_Problem<int>();
+
+            var actual = linkedList.IsCircular();
+
+            Assert.False(actual);
+        }
     }
 }

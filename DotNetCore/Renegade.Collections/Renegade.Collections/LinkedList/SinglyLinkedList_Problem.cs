@@ -70,5 +70,27 @@ namespace Renegade.Collections
 
             return true;
         }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <returns></returns>
+        public bool IsCircular()
+        {
+            if (this.Root == null) return false;
+
+            var curr = this.Root;
+            var runner = this.Root;
+
+            while (runner != null && runner.Next != null)
+            {
+                curr = curr.Next;
+                runner = runner.Next.Next;
+
+                if (curr == runner) return true;
+            }
+
+            return false;
+        }
     }
 }
