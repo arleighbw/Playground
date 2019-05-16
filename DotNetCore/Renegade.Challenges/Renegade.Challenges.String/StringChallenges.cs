@@ -84,5 +84,40 @@ namespace Renegade.Challenges.String
             return string.Format("{0}{1}", hour.ToString().PadLeft(2, '0'), s.Substring(2, 6));
         }
 
+        public static bool HasEnoughNoteLettersFromMagazine(string magazine, string note)
+        {
+            var magLetters = new Dictionary<char, int>();
+
+            foreach (char c in magazine)
+            {
+                if (magLetters.ContainsKey(c))
+                {
+                    magLetters[c]++;
+                }
+                else
+                {
+                    magLetters.Add(c, 1);
+                }
+            }
+
+            foreach (char noteL in note)
+            {
+                if (magLetters.ContainsKey(noteL))
+                {
+                    magLetters[noteL]--;
+                    if (magLetters[noteL] < 0)
+                    {
+                        return false; //out of letters for note
+                    }
+                }
+                else
+                {
+                    return false; // does not contain needed letter
+                }
+            }
+
+            return true;
+        }
+
     }
 }
