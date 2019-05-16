@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Renegade.Challenges.String", "Renegade.Challenges.String\Renegade.Challenges.String.csproj", "{6798207D-DCA0-48E2-88D2-82E36006E69B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Renegade.Challenges.String.Tests", "Renegade.Challenges.String.Tests\Renegade.Challenges.String.Tests.csproj", "{582F7410-80A3-4D7C-B35F-485A3FCF073A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6798207D-DCA0-48E2-88D2-82E36006E69B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6798207D-DCA0-48E2-88D2-82E36006E69B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6798207D-DCA0-48E2-88D2-82E36006E69B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6798207D-DCA0-48E2-88D2-82E36006E69B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{582F7410-80A3-4D7C-B35F-485A3FCF073A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{582F7410-80A3-4D7C-B35F-485A3FCF073A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{582F7410-80A3-4D7C-B35F-485A3FCF073A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{582F7410-80A3-4D7C-B35F-485A3FCF073A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {699F6DF4-62B1-4801-9D7A-953CCD59D5DC}
+	EndGlobalSection
+EndGlobal
