@@ -71,20 +71,20 @@ notEatingDF.columns=['TimeStamp','EMG1','EMG2','EMG3','EMG4','EMG5','EMG6','EMG7
 notEatingDF.plot(x='TimeStamp')
 
 
-# In[155]:
+# In[161]:
 
 
 #stdDev = eatingDF.std()
 #print(type(stdDev))
 
-stdDeviations = [eatingDF[1:].std()]
-stdDeviations.append(notEatingDF[1:].std())
+stdDeviations = [eatingDF.std()]
+stdDeviations.append(notEatingDF.std())
 
 print(type(stdDeviations[0][1:]))
-#print(stdDeviations[0])
-#print(stdDeviations[1])
+print(stdDeviations[0])
+print(stdDeviations[1])
 
-pd.concat(stdDeviations, axis=1).plot()
+pd.concat(stdDeviations, axis=1)[1:].plot()
 
 
 # In[133]:
