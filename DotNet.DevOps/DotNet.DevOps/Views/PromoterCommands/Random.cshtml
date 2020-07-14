@@ -1,0 +1,22 @@
+﻿@using DotNet.DevOps.Models
+
+@model DotNet.DevOps.ViewModels.RandomPromoterCommandViewModel
+@{
+    ViewBag.Title = "Random";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@{
+    var className = Model.Developers.Count > 0 ? "Popular" : null;
+}
+
+<h2 class="@className">@Model.PromoterCommand.Name</h2>
+
+@if (Model.Developers.Count == 0)
+{
+    <text>No one has requested this command.</text>
+}
+@foreach (var developer in Model.Developers)
+{
+    <li>@developer.Name</li>
+}
+
